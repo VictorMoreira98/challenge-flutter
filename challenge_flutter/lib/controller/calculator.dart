@@ -17,7 +17,6 @@ abstract class _CalculatorBase with Store {
     for (var i = 0; i < num; i++) {
       if(i % 3 == 0 || i % 5 == 0){
         _result = _result + i;
-        print(_result);
       }
     }
   }
